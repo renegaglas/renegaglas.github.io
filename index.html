@@ -4,67 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mathis VILLEMIN web page</title>
 
-	<!-- Stylesheets -->
-    <link rel="stylesheet" href="https://lunevedy.com/assets/2.0/css/lunevedy.min.css" />
-    <link rel="stylesheet" href="assets/css/custom.css" />
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/bouton_style.css">
+
+    <!--script-->
+    <script src="assets/javascript/responsive.js"></script>
+
+    <!--font familly-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
 </head>
-
 <body>
-    
-    <nav class="theme-dark menu-sticky">
-        <div class="container-menu">
-            <a href="#" class="brand">
-                <img src="https://lunevedy.com/ui/assets/img/website-logo-sample.png" alt="Sample website logo">
-            </a>
+    <nav class="navbar" id="navtop">
+        <a href="index.html"><img src="assets/img/logo.png" id="logo"></a>
+        <ul id="respnav">
+        <li>
+            <a class="button-grow" target="_blank" href="portfolio/tmplinktoproject.html">Portfolio</a>
+        </li>
+        <li>
+            <a class="button-grow" target="_blank" href="https://www.linkedin.com/in/mathis-villemin/">linkdin</a>
+        </li>
+        <li>
+            <a class="button-grow" target="_blank" href="contact/index.html">Contact</a>
+        </li>
+        </ul>
+        <button class = "menu_button" onclick="responsive_smallscreen()"><img class="responsive_image" src="assets/img/menu-icon.png"></button>
         
-            <div class="container-menu-links">
-        
-                <div class="nav-toggle" id="nav-toggle-btn">
-                    <div class="bar-1"></div>
-                    <div class="bar-2"></div>
-                    <div class="bar-3"></div>
-                </div>
-        
-                <ul class="links-wrapper links-bold">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="portfolio/tmplinktoproject.html">Portfolio</a></li>
-                    <li><a class="btn btn-soft btn-outline" id="btn-cta" href="#"><i class="fa-solid fa-user"></i> <span>Contact</span></a></li>
-                </ul>
-            </div>
-        </div>
     </nav>
-    
-    <!-- header starts here -->
-
-    <header class="cols-2-half text-center-mobile theme-dark header-after-menu-sticky">
-
-        <div class="col-2 col-text slide-in-left-desktop">
-            
-            <h1 class="heading-underline"> <b>mathis</b> <span class="highlight"> <b>villemin</b> </span></h1>
-            
-            <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fa-solid fa-square-check"></i></span>Make better decisions with in-progress insights</li>
-                <li><span class="fa-li"><i class="fa-solid fa-square-check"></i></span>Focus your team on what work should happen next</li>
-                <li><span class="fa-li"><i class="fa-solid fa-square-check"></i></span>Streamline issues, sprints, and product roadmaps.</li>
-            </ul>
-            
-            <div class="container-btn">
-                <a href="#" class="btn btn-outline btn-soft btn-uppercase btn-large"><i class="fas fa-shopping-cart"></i><span>Order now</span></a>
+    <main>
+        <div class="row">
+            <div class="column">
+                <h1 class="titre" style="font-family: 'Kanit', sans-serif;">Mathis <b style="color: var(--green-700);">VILLEMIN</b></h1>
+                <ul class="dot_list">
+                    <li class="inter_line">Make better decisions with in-progress insights</li>
+                    <li class="inter_line">Focus your team on what work should happen next</li>
+                    <li class="inter_line">Streamline issues, sprints, and product roadmaps.</li>
+                </ul>
+               <div class="container-buton-cross button-grow">
+                    <a class="button-cross" target="_blank" href="#" style="--color: var(--purple-900);">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Mon CV
+                    </a>
+                </div>
+            </div>
+            <div class="column">
+                <img class="responsive_image circle_image" style="box-sizing: border-box;" src="assets/img/selfpic-new.jpg">
             </div>
         </div>
 
-        <div class="col-2 col-visual desktop-bleed-all img-circle slide-in-right-desktop">
-                <figure>
-                    <img src="assets/img/selfpic.jpg" alt="Placeholder image">
-                </figure>
+
+        <div class="row">
+            <div class="column">
+                <a target="_blank" href="portfolio/project-hero/index.html"><img class="responsive_image" src="assets/img/hero.png"></a>
+            </div>
+            <div class="column">
+                <a target="_blank" href="portfolio/project-multi-column/index.html"><img class="responsive_image" src="assets/img/multy-col.jpg"></a>
+            </div>
         </div>
-
-    </header>
-
-    <!-- header ends here -->
-
-
+    </main>
+    
 </body>
 </html>
