@@ -127,6 +127,7 @@ a {
   text-align: center;
 }
 .multi-column {
+  max-width: 25%;
   flex: 20%;
   padding: 10px;
   font-size: var(--font-size-md);
