@@ -121,6 +121,7 @@ a {
 
 .row {
   display: flex;
+  flex-direction: row;
   width: 100%;
   height: 100%;
 }
@@ -133,6 +134,7 @@ a {
   align-self: center;
   text-align: center;
 }
+
 .multi-column {
   max-width: 25%;
   flex: 20%;
@@ -141,6 +143,7 @@ a {
   align-self: center;
   text-align: center;
 }
+
 .responsive_image{
   height: 100%;
   width: 100%;
@@ -200,6 +203,8 @@ hr{
   margin: 10px;
 }
 
+.scale-on-load{animation: scale-on-load 0.4s ease-in-out both;}
+
 .scale-right-down:hover{animation: scale-right-down 0.4s ease-in-out both;}
 .scale-left-down:hover{animation: scale-left-down 0.4s ease-in-out both;}
 .scale-left-up:hover{animation: scale-left-up 0.4s ease-in-out both;}
@@ -209,8 +214,46 @@ hr{
 .scale-down:hover{animation: scale-down 0.4s ease-in-out both;}
 .scale-left:hover{animation: scale-left 0.4s ease-in-out both;}
 .scale-up:hover{animation: scale-up 0.4s ease-in-out both;}
-.scale-right:hover{animation: scale-right 0.4s ease-in-out both;}
+.scale-right:hover{animation: scale-right 0.4s ease-in-out both;} 
 
+
+@media screen and (max-width: 600px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+
+  .multi-column {
+    max-width: none;
+    flex: 95%;
+    padding: 10px;
+    font-size: var(--font-size-md);
+    align-self: center;
+    text-align: center;
+  }
+
+  .scale-on-load,
+  .scale-right-down:hover,
+  .scale-left-down:hover,
+  .scale-left-up:hover,
+  .scale-right-up:hover,
+  .scale-down:hover,
+  .scale-left:hover,
+  .scale-up:hover,
+  .scale-right:hover{animation: none;}
+
+}
+
+@keyframes scale-on-load {
+  0% {
+    transform: scale(0.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 @keyframes scale-right-down {
   0% {
     transform: scale(1) translateX(0%) translateY(0%);
