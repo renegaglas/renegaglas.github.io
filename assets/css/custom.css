@@ -1,6 +1,11 @@
 /*this is my css file*/
 @import "color.css";
 
+/*
+color text : #007fff
+color logo : #10e3cd
+color download : #11dfa2
+*/
 
 body
 {
@@ -57,7 +62,7 @@ a {
 .navbar ul li a {
   font-family: 'Barlow Condensed', sans-serif;
   font-size: var(--font-size-xl);
-  color: var(--white-000);
+  color: #007fff;
   padding: 24px;
   /*Let's make the anchor display block.
      This will ensure when we hover, focus, or is active we get the full width and height 
@@ -141,13 +146,25 @@ a {
   width: 100%;
 }
 
+.accueil_image{
+  height: 80%;
+  width: 80%;
+}
+
+.accueil_image:hover{
+  height: 90%;
+  width: 90%;
+  transition: all 0.5s ease-in-out;
+}
+
 .circle_image{
   overflow:hidden;
   border-radius: 50%;
 }
 
 .titre{
-  color: var(--green-400);
+  color: #007fff;
+  font-family: 'Kanit', sans-serif;
 }
 
 .dot_list{
@@ -172,7 +189,7 @@ a {
 }
 
 h2{
-  color: var(--white-000);
+  color: #007fff;
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: var(--font-size-xl);
@@ -279,5 +296,5 @@ hr{
 }
 
 .button-footer{
-  color: var(--white-000);
+  color: #007fff;
 }
