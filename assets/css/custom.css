@@ -143,17 +143,14 @@ a {
 }
 
 .responsive_image{
-  height: 100%;
   width: 100%;
 }
 
 .accueil_image{
-  height: 80%;
   width: 80%;
 }
 
 .accueil_image:hover{
-  height: 90%;
   width: 90%;
   transition: all 0.5s ease-in-out;
 }
@@ -230,6 +227,15 @@ hr{
     font-size: var(--font-size-md);
     align-self: center;
     text-align: center;
+  }
+
+  .column {
+    width: 100%;
+    padding: 10px;
+    font-size: var(--font-size-md);
+    align-self: center;
+    text-align: center;
+    display: inline;
   }
 
   .scale-on-load,
