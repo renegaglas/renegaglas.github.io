@@ -9,6 +9,14 @@ mathis.villemin.pro@gmail.com
 -----------------------------------------------------------------------------
 todo-list:
 	-main task
+		-rework
+			-rework site
+				-explication du portfolio
+			-rework linkdin
+			-rework cv
+				-éviter les acronymes
+				-définir chaque projet
+					-remplacer OCR par abacus
 		-faire les correction nécessaire
 			-rediriger le cv
 			-corriger les fautes d'orthographe
