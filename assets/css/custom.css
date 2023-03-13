@@ -62,7 +62,7 @@ a {
 .navbar ul li a {
   font-family: 'Barlow Condensed', sans-serif;
   font-size: var(--font-size-xl);
-  color: #007fff;
+  color: #3399FF;
   padding: 24px;
   /*Let's make the anchor display block.
      This will ensure when we hover, focus, or is active we get the full width and height 
@@ -161,7 +161,7 @@ a {
 }
 
 .titre{
-  color: #007fff;
+  color: #3399FF;
   font-family: 'Kanit', sans-serif;
 }
 
@@ -187,7 +187,7 @@ a {
 }
 
 h2{
-  color: #007fff;
+  color: #3399FF;
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: var(--font-size-xl);
@@ -343,5 +343,5 @@ hr{
 }
 
 .button-footer{
-  color: #007fff;
+  color: #3399FF;
 }
