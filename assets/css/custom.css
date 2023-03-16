@@ -144,10 +144,16 @@ a {
 
 .responsive_image{
   width: 100%;
+  height: auto;
+}
+
+.portfolio_image{
+  aspect-ratio: 3/2;
 }
 
 .accueil_image{
   width: 80%;
+  aspect-ratio: 1/1;
 }
 
 .accueil_image:hover{
