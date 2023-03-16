@@ -166,7 +166,7 @@ a {
 }
 
 .dot_list{
-  color: var(--purple-900);
+  color: var(--purple-accessible);
   font-family: 'Ubuntu', sans-serif;
   text-align: left;
 }
@@ -179,7 +179,7 @@ a {
 
 .cv_button{
   background: none;
-  color: var(--purple-900);
+  color: var(--purple-accessible);
   margin-top: 5%;
   margin-bottom: 2.5%;
   font-family: 'Barlow Condensed', sans-serif;
