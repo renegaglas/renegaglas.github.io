@@ -1,0 +1,1 @@
+function calculate(firstOperand, secondOperand, operator)

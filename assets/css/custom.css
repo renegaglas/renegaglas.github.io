@@ -351,3 +351,25 @@ hr{
 .button-footer{
   color: #3399FF;
 }
+header .col-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 0;
+}
+
+header .col-text h2 {
+	margin-bottom: 20px;
+  text-align: left;
+}
+
+header .col-text h1{
+  color: #3399FF;
+}
+.theme-dark.section-selector-1{
+  background-color: #343434;
+}
+.theme-dark.section-selector-1 p {
+  color: var(--purple-400);
+  font-size: var(--font-size-md);
+}
